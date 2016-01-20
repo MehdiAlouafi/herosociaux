@@ -10,7 +10,7 @@ html, body {
 }
 
 header {
-  height: 500px;
+  height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../assets/background-hs.jpg');
   text-align: center;
@@ -27,7 +27,7 @@ header h1 {
 }
 
 header p {
-  max-width: 590px;
+  max-width: 600px;
   display: block;
   margin: 0 auto;
   font-size: 17px;
@@ -41,6 +41,7 @@ header p {
   position: absolute;
   bottom: 0;
   display: inline-block;
+  color: #F29532;
 }
 .newsletter {
   margin-top: 140px;
@@ -51,7 +52,7 @@ header img {
   margin-top: 50px;
 }
 
-#sign-up {
+.sign-up {
   display: inline-block;
   padding: 13px 40px;
   background-color: #F29532;
@@ -61,12 +62,122 @@ header img {
   color: #fff;
   text-transform: uppercase;
   font-size: 17px;
+  border: none;
 }
 
-#input {
+.input {
   outline: none;
   padding: 10px 20px;
   border-radius: 0;
   border: 4px solid #F29532;
   background: rgba(255, 255, 255, 0.5);
+}
+
+/* Partie Main (Mathieu) */
+main{
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+main>.titre{
+  margin-top: -2%;
+  width: 100%;
+  height: 80px;
+  background-color: #DAD2C8;
+  text-align: center;
+  line-height: 80px;
+}
+
+main>h1{
+  text-align: center;
+  font-size: 200%;
+  color: #222222;
+}
+
+.expliP{
+  width: 78%;
+  margin: auto;
+  padding-left: 2%;
+  margin-top: 5%;
+}
+
+.expli>img{
+  width: 30%;
+  margin-left: 30%;
+}
+
+p>.enlu{
+  color: #F29532;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 1001px){
+  .expli{
+    width: 30%;
+    margin-right: 2%;
+    float: left;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 8%;
+    color: #222222;
+  }
+}
+
+
+@media screen and (max-width: 1000px){
+  .expli{
+    width: 30%;
+    margin-right: 2%;
+    text-align: justify;
+    padding: 5px;
+    margin-bottom: 8%;
+    color: #222222;
+  }
+}
+
+main form{
+  width: 300px;
+  margin: auto;
+}
+
+.email{
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  margin-bottom: 2%;
+  border: #F29532 3px solid;
+}
+
+main .button{
+  width: 200px;
+  height: 35px;
+  background-color: #F29532;
+  border: #F29532 1px solid;
+  font-size: 110%;
+  display: block;
+  margin: auto;
+  color: white;
+}
+
+footer{
+  width: 100%;
+  height: 10%;
+  background-color: #3D3D3D;
+  text-align: center;
+  padding-top: 10px;
+}
+
+footer>ul>li{
+  display: inline-block;
+  list-style: none;
+}
+
+footer>ul>li>a{
+  color: #F29532;
+  text-decoration: none;
+}
+
+footer>ul>li>a:hover{
+  color: #F29532;
 }
