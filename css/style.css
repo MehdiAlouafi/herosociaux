@@ -1,0 +1,72 @@
+html, body {
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+  height: 500px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url('../assets/background-hs.jpg');
+  text-align: center;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+
+header h1 {
+  margin-top: 0;
+  padding-top: 100px;
+  color: white;
+}
+
+header p {
+  max-width: 590px;
+  display: block;
+  margin: 0 auto;
+  font-size: 17px;
+  color: white;
+  line-height: 1.5;
+  position: relative;
+  top: 70px;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 0;
+  display: inline-block;
+}
+.newsletter {
+  margin-top: 140px;
+}
+
+header img {
+  display: inline-block;
+  margin-top: 50px;
+}
+
+#sign-up {
+  display: inline-block;
+  padding: 13px 40px;
+  background-color: #F29532;
+  position: relative;
+  top: 1px;
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 17px;
+}
+
+#input {
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 0;
+  border: 4px solid #F29532;
+  background: rgba(255, 255, 255, 0.5);
+}
